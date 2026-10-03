@@ -1,6 +1,8 @@
 ---
 title: Welcome to Where The Trail Ends
-hidden: false
+hidden: true
+link:
+  new_tab: false
 ---
 <Callout icon="📘" theme="info">
   **Template:**  Delete this callout and edit this page with your content and links.
@@ -32,17 +34,27 @@ hidden: false
 ## The Basics
 
 <Cards>
-  <Card kind="tile" title="Customize" href="#" icon="fa-duotone fa-brush">Style the widget to match your brand</Card>
+  <Card title="Customize" href="#" icon="fa-duotone fa-brush" kind="tile">
+    Style the widget to match your brand
+  </Card>
 
-  <Card kind="tile" title="Integrations" href="#" icon="fa-duotone fa-arrow-down-left-and-arrow-up-right-to-center">Connect with third-party services</Card>
+  <Card title="Integrations" href="#" icon="fa-duotone fa-arrow-down-left-and-arrow-up-right-to-center" kind="tile">
+    Connect with third-party services
+  </Card>
 
-  <Card kind="tile" title="CLI" href="#" icon="fa-duotone fa-terminal">Manage resources from your terminal</Card>
+  <Card title="CLI" href="#" icon="fa-duotone fa-terminal" kind="tile">
+    Manage resources from your terminal
+  </Card>
 
-  <Card kind="tile" title="Security" href="" icon="fa-duotone fa-shield-dog">Learn how we secure your data</Card>
+  <Card title="Security" icon="fa-duotone fa-shield-dog" kind="tile">
+    Learn how we secure your data
+  </Card>
 
-  <Card kind="tile" title="Common Issues" href="" icon="fa-duotone fa-file-circle-info">Troubleshoot common issues</Card>
+  <Card title="Common Issues" icon="fa-duotone fa-file-circle-info" kind="tile">
+    Troubleshoot common issues
+  </Card>
 
-  <Card kind="tile" title="Sync" href="#" icon="fa-duotone fa-code-compare">Connect to a storage provider</Card>
+  <Card title="Sync" href="#" icon="fa-duotone fa-code-compare" kind="tile">
+    Connect to a storage provider
+  </Card>
 </Cards>
-
-<br />
