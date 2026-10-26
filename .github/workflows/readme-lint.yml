@@ -1,0 +1,11 @@
+name: readme-lint
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      # pinned so a CLI release cannot break CI silently
+      - run: npx -y @readme/cli@0.2.0 lint
