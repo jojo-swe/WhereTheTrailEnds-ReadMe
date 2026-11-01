@@ -1,2 +1,16 @@
 .DS_Store
 Thumbs.db
+
+# privacy-guard: local secrets, logs, and editor state
+.env
+.env.*
+!.env.example
+*.log
+logs/
+*.local
+*.local.*
+.vscode/settings.json
+.idea/
+*.pem
+*.key
+secrets/

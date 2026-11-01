@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # A pull request checkout does not include the version branch. The
+      # linter looks for it before it reads any page.
+      - name: Fetch version branch
+        run: git fetch --depth=1 origin +refs/heads/v1.0:refs/remotes/origin/v1.0
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       # pinned so a CLI release cannot break CI silently
