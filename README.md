@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/logo.svg" alt="WhereTheTrailEnds-ReadMe logo" width="128"></p>
+
 # Where The Trail Ends — docs
 
 This repo is the documentation source for **Where The Trail Ends**, the game. Pages are written in Markdown/MDX and published through [ReadMe](https://readme.com). Every page here, including guides and API reference config, shows up on the docs site.

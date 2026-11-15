@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#08090c"/>
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="180" fill="#e85d75" fill-opacity="0.18" filter="url(#glow)"/>
+  <rect x="56.32" y="56.32" width="399.36" height="399.36" rx="71.88" fill="#0e1016"/>
+  <rect x="63.51" y="63.51" width="384.98" height="384.98" rx="64.70" fill="none" stroke="#e85d75" stroke-opacity="0.35" stroke-width="3"/>
+    <polyline points="163.52,304.67 171.56,309.47 179.61,313.36 187.65,315.52 195.69,315.29 203.73,312.21 211.77,306.09 219.81,296.99 227.85,285.26 235.90,271.48 243.94,256.41 251.98,240.92 260.02,225.93 268.06,212.30 276.10,200.79 284.15,191.96 292.19,186.11 300.23,183.30 308.27,183.31 316.31,185.66 324.35,189.67 332.39,194.50 340.44,199.25 348.48,203.02" fill="none" stroke="#e85d75" stroke-width="15.82" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="163.52" cy="304.67" r="9.73" fill="#e85d75" stroke="none"/>
+    <circle cx="348.48" cy="203.02" r="19.47" fill="none" stroke="#e85d75" stroke-width="12.17" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="348.48" cy="203.02" r="7.30" fill="#e85d75" stroke="none"/>
+</svg>
